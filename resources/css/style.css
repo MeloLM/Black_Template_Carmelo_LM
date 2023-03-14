@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap');
+
+*{
+    font-family: 'Orbitron', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.bg_moon{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.720), rgba(0, 0, 0, 0.720)),
+                      linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(105,108,111,0) 100%), url(/public/media/moon.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+}
+
+.vh_custom{
+    height: 40vh;
+}
+
+.num_box{
+    width: 22%;
+    border-bottom: 1px var(--color-main) solid;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
